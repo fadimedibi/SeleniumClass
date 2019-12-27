@@ -14,7 +14,6 @@ public class TaskTestCase {
 		driver.findElement(By.name("firstName")).sendKeys("Fahrettin");
 		driver.findElement(By.name("lastName")).sendKeys("Cureklibatur");
 		driver.findElement(By.name("phone")).sendKeys("9012345676");
-		
 		driver.findElement(By.id("userName")).sendKeys("Fahrettin34");
 		driver.findElement(By.name("address1")).sendKeys("101 Yesilcam sk");
 		driver.findElement(By.name("city")).sendKeys("Istanbul");

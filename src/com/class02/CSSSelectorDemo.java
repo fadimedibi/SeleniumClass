@@ -11,20 +11,22 @@ public class CSSSelectorDemo {
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://166.62.36.207/humanresources/symfony/web/index.php/auth/login");
 		driver.findElement(By.cssSelector("input[type='text']")).sendKeys("sohilaryan");
-
-		// css=input[name='txtUsername']
+	//	driver.findElement(By.cssSelector("input[name='txtUsername']")).sendKeys("uuyyyghjkl");
+	//	css=    input[name='txtUsername']
+		
+		
 
 		// input#txtUsername only if you have id attribute
 
-		// input.button dot (.) used only for class if there is space in class value
+		// input.button dot (.) used only for class if there is space in class value, then replace it with dot.
 
 		// input[name^='txt'] starts with CSS Selector
-		
+
 		// input[names$='name'] $ represents ends with
-		
+
 		// input[id*='nL'] * keyword represents contains
-		
-		// 
+
+		//
 
 	}
 
