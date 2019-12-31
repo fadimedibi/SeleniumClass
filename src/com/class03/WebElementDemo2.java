@@ -27,7 +27,9 @@ public class WebElementDemo2 {
 			String allLink= link.getText();
 			
 			if(!allLink.isEmpty()) {
+				
 				System.out.println(allLink);
+				
 			}
 		}
 		driver.close();
