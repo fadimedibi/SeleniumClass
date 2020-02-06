@@ -20,13 +20,13 @@ public class DropDownRecap extends CommonMethods {
 
 		// CommonMethods.setUp("ie","");//Browser is not supported
 
-		// The method is openning Syntax Practice website using chrome browser
+		// The method is opening Syntax Practice website using chrome browser
 		CommonMethods.setUp("chrome", SYNTAX_PRACTICE_URL);
 
-		// find the lement input form and click on it
+		// find the element input form and click on it
 		driver.findElement(By.linkText("Input Forms")).click();
 
-		// find the lement select drop down list and click on it
+		// find the element select drop down list and click on it
 		driver.findElement(By.linkText("Select Dropdown List")).click();
 
 		// find the element with id select demo and store it and a variable

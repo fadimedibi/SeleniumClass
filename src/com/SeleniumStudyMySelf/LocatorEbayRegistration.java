@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 
-public class Locator {
+public class LocatorEbayRegistration {
 
 	public static void main(String[] args) {
 
@@ -56,6 +56,7 @@ public class Locator {
 		driver.findElement(By.cssSelector("#acceptq1")).click();
 		driver.findElement(By.xpath("//span[text()='Continue']")).click();
 
+		driver.quit();
 	}
 
 }

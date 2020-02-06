@@ -26,7 +26,12 @@ public class TaskFrame extends CommonMethods {
 		Thread.sleep(2000);
 		driver.findElement(By.linkText("Iframe")).click();
 		Thread.sleep(2000);
-		driver.switchTo().frame("FrameOne");
+		
+		int size= driver.findElements(By.tagName("iframe")).size();
+		System.out.println(size);
+		driver.switchTo().frame(0);
+		
+		driver.switchTo().frame("FrameOne"); //OR // driver.switchTo().frame(0);
 		driver.findElement(By.linkText("Home")).click();
 		driver.switchTo().defaultContent();
 		Thread.sleep(2000);

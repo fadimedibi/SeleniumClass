@@ -30,12 +30,12 @@ public class AmazonHw {
 			String amazonAllLinks = amazonLinks.getText();
 
 			if (!amazonAllLinks.isEmpty()) {
-				list.add(amazonAllLinks);
+			list.add(amazonAllLinks);
 				System.out.println(amazonAllLinks);
 
 			}
 		}
-		System.out.println("Number of links that has text= " + list.size());
+	System.out.println("Number of links that has text= " + list.size());
 		driver.close();
 
 	}
